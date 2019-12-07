@@ -1,0 +1,13 @@
+{
+  "name": "childrens_day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start -a --uid 'ix-server' ./bin/ix-server",
+    "pm2": "pm2 start --name='happy61' ./app.js --log-date-format='YYYY-MM-DD HH:mm:ss Z'"
+  },
+  "author": "jyjin",
+  "license": "ISC"
+}
